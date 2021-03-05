@@ -6,5 +6,5 @@ export const gravatarPath = (string) =>{
     const mlad ="itodakou@gmail.com";
     const digest =md5.update(lowerCaseString, 'binary').digest('hex');
 
-    return 'https://www.gravatar.com/avatar/' +digest+'/?d=robohash';
+    return 'https://www.gravatar.com/avatar/${digest}/?d=robohash';
 };

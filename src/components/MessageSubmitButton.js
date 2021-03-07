@@ -4,7 +4,7 @@ import { IconButton } from '@material-ui/core';
 import  SendIcon from  '@material-ui/icons/Send';
 
 
-const MessageSubmitButton =({name, text, setText}) =>{
+const MessageSubmitButton =({inputEl, name, text, setText}) =>{
 
 return (
 <IconButton
@@ -12,6 +12,7 @@ return (
  onClick ={()=>{
     pushMessage({name:"motto", text});
     setText('');
+    inputEl.current.focus();
  }}
  
  >

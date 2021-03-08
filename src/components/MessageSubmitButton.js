@@ -10,7 +10,7 @@ return (
 <IconButton
  disabled={text === ''}
  onClick ={()=>{
-    pushMessage({name:"motto", text});
+    pushMessage({name, text});
     setText('');
     inputEl.current.focus();
  }}

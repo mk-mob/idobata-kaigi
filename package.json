@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-loader": "^4.0.2"
+    "eslint-loader": "^4.0.2",
+    "firebase-tools": "9.6.0"
   }
 }

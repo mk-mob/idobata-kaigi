@@ -35,7 +35,7 @@ const MessageItem =({isLastItem, name,text})=>{
                 className={classes.inline}
                 color="textPrimary"
               >
-                  {text}:
+                  {text}
               </Typography>
           }
         />
